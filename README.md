@@ -106,7 +106,7 @@ Opens dashboard in browser with upload + evaluation tabs
 
 ### 🔹 Confusion Matrix
 
-![Confusion Matrix](confusion_matrix_view.png)
+![Confusion Matrix](confusion_matrix.png)
 
 
 ---
