@@ -53,6 +53,7 @@ A fully interactive **Streamlit app**:
 
 ## 📦 Folder Structure
 
+'''
 image_classifier/
 ├── seg_train/ # Training dataset (ignored in Git)
 ├── seg_test/ # Validation dataset (ignored in Git)
@@ -68,6 +69,8 @@ image_classifier/
 ├── app.py # Streamlit dashboard app
 ├── requirements.txt
 └── README.md
+
+'''
 
 
 ## 🚀 How to Run the Project
