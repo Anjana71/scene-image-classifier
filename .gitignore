@@ -1,0 +1,10 @@
+# Ignore dataset folders and predictions
+seg_train/
+seg_test/
+seg_pred/
+outputs/predictions/
+*.h5
+*.keras
+*.png
+*.jpg
+*.jpeg
