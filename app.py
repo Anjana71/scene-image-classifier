@@ -7,7 +7,7 @@ import os
 
 # -------------------- CONFIG --------------------
 IMG_SIZE = (150, 150)
-MODEL_PATH = "model/cnn_intel_model.h5"  # or cnn_intel_model.keras
+MODEL_PATH = "model/cnn_intel_model.h5"  
 CONFUSION_MATRIX_PATH = "outputs/confusion_matrix.png"
 CLASSES = ['buildings', 'forest', 'glacier', 'mountain', 'sea', 'street']
 # -------------------------------------------------
