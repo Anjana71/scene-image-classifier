@@ -127,10 +127,10 @@ pillow
 seaborn
 scikit-learn
 streamlit
----
 
-###🙌 Credits
+
+### 🙌 Credits
 Dataset: Kaggle - Intel Scene Classification
----
+
 Developed with ❤️ using TensorFlow + Streamlit
 
