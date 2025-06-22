@@ -82,6 +82,41 @@ Opens dashboard in browser with upload + evaluation tabs
 
 > 📂 Dataset folders and prediction outputs are excluded from GitHub and should be downloaded or generated locally. See `.gitignore`.
 
+---
+
+## 🖼️ Screenshots
+
+### 🔹 Upload & Prediction Interface
+
+![Home Page](dashboard_home.png)
+
+---
+
+### 🔹 Prediction Result Output
+
+![Prediction Output](prediction.png)
+
+---
+
+### 🔹 Evaluation Dashboard View
+
+![Dashboard Tab](evaluation_dashboard.png)
+
+---
+
+### 🔹 Confusion Matrix
+
+![Confusion Matrix](confusion_matrix_view.png)
+
+
+---
+
+### 🔹 Classification Report
+
+![Classification Report](classification_report.png)
+
+---
+
 
 ✅ Requirements
 
@@ -92,6 +127,7 @@ pillow
 seaborn
 scikit-learn
 streamlit
+
 🙌 Credits
 Dataset: Kaggle - Intel Scene Classification
 
