@@ -53,21 +53,7 @@ A fully interactive **Streamlit app**:
 
 ## 📦 Folder Structure
 
-image_classifier/
-├── seg_train/
-├── seg_test/
-├── seg_pred/
-├── model/
-│ └── cnn_intel_model.h5 # Trained model
-├── outputs/
-│ ├── confusion_matrix.png # Evaluation result
-│ └── predictions/ # Predicted output images
-├── train_model.py # Model training
-├── evaluate_model.py # Evaluation & confusion matrix
-├── predict_images.py # Batch predictions from seg_pred
-├── app.py # Streamlit dashboard
-├── requirements.txt
-└── README.md
+<pre> image_classifier/ ├── seg_train/ # Training dataset (ignored in Git) ├── seg_test/ # Validation dataset (ignored in Git) ├── seg_pred/ # Unlabeled prediction input (ignored in Git) ├── model/ │ └── cnn_intel_model.h5 # Trained model weights ├── outputs/ │ ├── confusion_matrix.png # Evaluation result │ └── predictions/ # Predicted output images (optional) ├── train_model.py # Model training script ├── evaluate_model.py # Evaluation + confusion matrix generation ├── predict_images.py # Batch predictions from seg_pred/ ├── app.py # Streamlit dashboard app ├── requirements.txt └── README.md </pre>
 
 
 ## 🚀 How to Run the Project
@@ -93,6 +79,9 @@ Results saved in outputs/predictions/
 
 streamlit run app.py
 Opens dashboard in browser with upload + evaluation tabs
+
+> 📂 Dataset folders and prediction outputs are excluded from GitHub and should be downloaded or generated locally. See `.gitignore`.
+
 
 ✅ Requirements
 
