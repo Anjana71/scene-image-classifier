@@ -118,7 +118,7 @@ Opens dashboard in browser with upload + evaluation tabs
 ---
 
 
-✅ Requirements
+### ✅ Requirements
 
 tensorflow
 numpy
@@ -127,9 +127,10 @@ pillow
 seaborn
 scikit-learn
 streamlit
+---
 
-🙌 Credits
+###🙌 Credits
 Dataset: Kaggle - Intel Scene Classification
-
+---
 Developed with ❤️ using TensorFlow + Streamlit
 
